@@ -1,4 +1,4 @@
-# Bài Tập Website Tĩnh - TechStore
+# Bài Tập Website Tĩnh - PMNStore
 
 ## Thông Tin Sinh Viên
 - **Họ và tên:** Phan Minh Nguyên
@@ -6,7 +6,7 @@
 - **Lớp:** 25ĐHSA03
 
 ## Mô Tả Dự Án
-Website tĩnh giới thiệu sản phẩm công nghệ TechStore được xây dựng bằng HTML5 và CSS3.
+Website tĩnh giới thiệu sản phẩm công nghệ PMNStore được xây dựng bằng HTML5 và CSS3.
 
 ## Cấu Trúc Website
 - `index.html`: Trang chủ giới thiệu chung.
