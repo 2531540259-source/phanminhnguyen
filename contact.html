@@ -1,38 +1,50 @@
-<link rel="stylesheet" href="css/style.css">
-<main class="contact-section">
-  <h1 class="page-title">Liên Hệ Với Chúng Tôi</h1>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên Hệ - PMNStore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-  <div class="contact-grid">
-    <!-- Cột 1: Thông tin liên hệ -->
-    <div class="contact-info">
-      <h2>Thông Tin Liên Hệ</h2>
-      <p>📍 <strong>Địa chỉ:</strong> 104 Nguyễn Văn Trỗi, Quận Phú Nhuận, TP. Hồ Chí Minh</p>
-      <p>✉️ <strong>Email:</strong> minhnguyen@gmail.com</p>
-      <p>📞 <strong>Điện thoại:</strong> 0357 830 907</p>
-      <p>⏰ <strong>Giờ làm việc:</strong> 8:00 - 21:00 (Thứ 2 - Chủ Nhật)</p>
+  <main class="contact-section">
+    <h1 class="page-title">Liên Hệ Với Chúng Tôi</h1>
+
+    <div class="contact-grid">
+      <!-- Cột 1: Thông tin -->
+      <div class="contact-info">
+        <h2>Thông Tin Liên Hệ</h2>
+        <p>📍 <strong>Địa chỉ:</strong> 104 Nguyễn Văn Trỗi, Quận Phú Nhuận, TP. Hồ Chí Minh</p>
+        <p>✉️ <strong>Email:</strong> minhnguyen@gmail.com</p>
+        <p>📞 <strong>Điện thoại:</strong> 0357 830 907</p>
+        <p>⏰ <strong>Giờ làm việc:</strong> 8:00 - 21:00 (Thứ 2 - Chủ Nhật)</p>
+      </div>
+
+      <!-- Cột 2: Form -->
+      <div class="contact-form-card">
+        <h2>Gửi Tin Nhắn</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Họ và Tên</label>
+            <input type="text" id="name" placeholder="Nhập họ và tên..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Nhập email..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Nội Dung</label>
+            <textarea id="message" rows="4" placeholder="Nhập nội dung tin nhắn..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Gửi Liên Hệ</button>
+        </form>
+      </div>
     </div>
+  </main>
 
-    <!-- Cột 2: Form gửi tin nhắn -->
-    <div class="contact-form-card">
-      <h2>Gửi Tin Nhắn</h2>
-      <form action="#" method="POST">
-        <div class="form-group">
-          <label for="name">Họ và Tên</label>
-          <input type="text" id="name" placeholder="Nhập họ và tên..." required>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Nhập email..." required>
-        </div>
-
-        <div class="form-group">
-          <label for="message">Nội Dung</label>
-          <textarea id="message" rows="4" placeholder="Nhập nội dung tin nhắn..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn-submit">Gửi Liên Hệ</button>
-      </form>
-    </div>
-  </div>
-</main>  
+</body>
+</html>
