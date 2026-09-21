@@ -391,3 +391,17 @@ footer {
         font-size: 2.2rem;
     }
 }
+/* Kiểu chung cho dòng giá */
+.product-price {
+  font-size: 0.95rem;
+  color: #4b5563; /* Màu xám trung tính cho chữ "Giá:" */
+  margin: 12px 0;
+}
+
+/* Làm nổi bật số tiền */
+.price-amount {
+  font-size: 1.3rem;       /* Tăng kích thước chữ */
+  font-weight: 700;         /* In đậm chữ */
+  color: #dc2626;           /* Màu đỏ nổi bật (Bắt mắt khi bán hàng) */
+  margin-left: 4px;
+}
