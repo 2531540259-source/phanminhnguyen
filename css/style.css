@@ -401,8 +401,12 @@ footer {
 /* Làm nổi bật số tiền */
 .price-amount {
   font-size: 1.3rem;       /* Tăng kích thước chữ */
+  font-weight: 700;         /* In đậm chữ */
+  color: #dc2626;           /* Màu đỏ nổi bật */
+  margin-left: 4px;
+}
 
-    /* Layout Trang Liên Hệ */
+/* Layout Trang Liên Hệ */
 .contact-section {
   max-width: 1100px;
   margin: 40px auto;
